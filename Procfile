@@ -1,2 +1,2 @@
-release: python testproj/manage.py migrate
-web: gunicorn --chdir testproj testproj.wsgi --log-file -
+release: python api_ecommerce/manage.py migrate
+web: gunicorn --chdir api_ecommerce api_ecommerce.wsgi --log-file -
