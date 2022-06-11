@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@2u9d^!k2o9ti-g1$-ztp7b#79$ak85=t8_f4+v4ysvjpjj)^o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'matst-api-ecommerce.herokuapp.com']
 
 
 # Application definition
